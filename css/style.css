@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.white {
+  color: white;
+}
+
+.padding-left {
+  padding-left: 50px;
+}
+
+.padding-right {
+  padding-right: 50px;
+}
+
+.midpage-pic {
+  background: url('/assets/mid.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: inherit;
+  padding-top: 500px;
+}
+
+#button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 1;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3em;
+  line-height: 50px;
+  color: cyan;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden2 {
+  display: none;
+}
+
+.white {
+  color: white;
+}
+
+.text-padding {
+  padding-top: 65px;
+}
+
+.footer-padding {
+  padding-bottom: 50px;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px; /* add border to the buttons */
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+    font-size: 33px;
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      font-size: 33px;
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #cb2027;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; /* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+      color: #cb2027;
+      background: #fff;
+      border-color: #cb2027;
+}
+
+/* tumblr button class*/
+.tumblrBtn{
+    background: #3a5876;
+}
+
+.tumblrBtn:before{
+      font-family: "FontAwesome";
+      content: "\f173"; /* add tumblr icon */
+}
+
+.tumblrBtn:hover{
+      color: #3a5876;
+      background: #fff;
+      border-color: #3a5876;
+}
+
+/* rss button class*/
+.rssBtn{
+    background: #e88845;
+}
+
+.rssBtn:before{
+      font-family: "FontAwesome";
+      content: "\f09e"; /* add rss icon */
+}
+
+.rssBtn:hover{
+      color: #fff;
+      background: #e88845;
+      border-color: #e88845;
+}
+
+/* google plus button class*/
+.githubBtn{
+    background: #c9510c;
+}
+
+.githubBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f113"; /* add facebook icon */
+    font-size: 33px;
+}
+
+.githubBtn:hover{
+    color: #282828;
+    background: #fff;
+    border-color: #282828; /* change the border color on mouse hover */
+}
+
+.youtubeBtn{
+    background: #FF0000;
+}
+
+.youtubeBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f167"; /* add facebook icon */
+}
+
+.youtubeBtn:hover{
+    color: #FF0000;
+    background: #fff;
+    border-color: #FF0000; /* change the border color on mouse hover */
+}
+
+#container1 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+#container2 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+#container3 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+#container4 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.desc {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.rounded2 {
+
+  border-radius: 20px;
+
+}
+
+.uk-background-highlight {
+  background: #ff9234;
+}
+
+.epic-right {
+  text-align: right;
+}
